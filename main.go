@@ -57,6 +57,7 @@ func (ak *AccessKeys) Render(w http.ResponseWriter, r *http.Request) error {
 // ListAccessKeys middleware is used to load an Article object from
 func ListAccessKeys(w http.ResponseWriter, r *http.Request) {
 	println("list keys =====")
+	println("add ci test ====")
 	list := []render.Renderer{}
 	key1 := &AccessKeys{Server: "192.168.0.1", Port: 1080, Key: "acb4"}
 	list = append(list, key1)
