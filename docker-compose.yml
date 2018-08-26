@@ -1,0 +1,7 @@
+version: '2'
+services:
+  wuwei-gate:  
+    build: .
+    command: go run main.go
+    ports:
+      - 3000:3000
