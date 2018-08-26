@@ -12,3 +12,6 @@ before_install:
   - sudo mv docker-compose /usr/local/bin
 script: 
   - docker-compose build
+notifications:
+  email:
+    - yiming.jin@live.com
